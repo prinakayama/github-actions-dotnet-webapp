@@ -31,6 +31,6 @@ jobs:
     - name: Implantação no servidor
       uses: ad-m/github-push-action@master
       with:
-        github_token: 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
+        github_token:  ${{ secrets.ACTIONS_DEPLOY_KEY }}
         branch: deploy
         force: true
