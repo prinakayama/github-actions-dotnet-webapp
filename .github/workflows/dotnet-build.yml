@@ -39,5 +39,4 @@ jobs:
         git add .
         git commit -m "Deploy to GitHub Pages"
         git push https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/prinakayama/github-actions-dotnet-webapp.git HEAD:deploy
-   env:
-        GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+ 
